@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: sdbus-networkmanager
+Version: 2.0.0
+Summary: NetworkManager binds for sdbus.
+Home-page: https://github.com/igo95862/python-sdbus
+Author: igo95862
+Author-email: igo95862@yandex.ru
+License: LGPL-2.1-or-later
+Project-URL: Documentation, https://python-sdbus.readthedocs.io/en/latest/
+Project-URL: Source, https://github.com/igo95862/python-sdbus/
+Project-URL: Tracker, https://github.com/igo95862/python-sdbus/issues/
+Keywords: dbus networkmanager networking linux freedesktop
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v2 or later (LGPLv2+)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: COPYING
+License-File: COPYING.LESSER
+Requires-Dist: sdbus (>=0.8rc2)
+
+[![Documentation Status](https://readthedocs.org/projects/python-sdbus-networkmanager/badge/?version=latest)](https://python-sdbus-networkmanager.readthedocs.io/en/latest/?badge=latest)
+# NetworkManager binds for python-sdbus
+
+Supports both asyncio (under `sdbus_async.networkmanager` module) and blocking (under `sdbus_block.networkmanager` module)
+
+Implements most NetworkManager dbus interfaces and objects.
+
+## Requirements
+
+* `python-sdbus` version higher than 0.8rc2
+
+See [python-sdbus requirements](https://github.com/igo95862/python-sdbus#requirements).
+
+## Installation
+
+`pip install --only-binary ':all:' sdbus-networkmanager`
+
+# [Documentation](https://python-sdbus-networkmanager.readthedocs.io/en/latest/)
+
+This is the sub-project of [python-sdbus](https://github.com/igo95862/python-sdbus).
+
+See the [python-sdbus documentation](https://python-sdbus.readthedocs.io/en/latest/).

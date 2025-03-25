@@ -1,0 +1,9 @@
+README.rst
+mpv.py
+setup.cfg
+setup.py
+python_mpv.egg-info/PKG-INFO
+python_mpv.egg-info/SOURCES.txt
+python_mpv.egg-info/dependency_links.txt
+python_mpv.egg-info/requires.txt
+python_mpv.egg-info/top_level.txt
